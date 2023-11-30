@@ -63,7 +63,18 @@ export default function RecipeReviewCard({ index, title, body, image }) {
         }}
       />
       <CardContent>
-      <Typography variant="body2" color="white" sx={{ fontSize: '0.9vw', maxWidth: '100%', height: '11vw' }}>
+      <Typography 
+        variant="body2" 
+        color="white" 
+        sx={{ 
+          fontSize: '1.3vh',
+          maxWidth: '100%',
+          height: '11vw',
+          '@media (max-width: 769px)': {
+            fontSize: '1vw', // Adjust the font size for screens smaller than 600px
+          },
+          }}
+      >
         {body}
       </Typography>
       </CardContent>

@@ -35,7 +35,7 @@ export default function RecipeReviewCard({ index, title, body, image }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 400, maxHeight: 550, backgroundColor: "#876445" }}>
+    <Card sx={{ maxWidth: 550, maxHeight: 680, backgroundColor: "#876445" }}>
       {/* backgroundColor: "#CA955C" */}
       <CardHeader
         avatar={
@@ -59,13 +59,13 @@ export default function RecipeReviewCard({ index, title, body, image }) {
         sx={{
           objectFit: 'cover',
           objectPosition: 'center center',
-          width: '100%', // Ensure the image takes the full width of the container
+          width: '100%', 
         }}
       />
       <CardContent>
-        <Typography variant="body2" color="white" fontSize= '1rem'>
+      <Typography variant="body2" color="white" sx={{ fontSize: '0.9vw', maxWidth: '100%', height: '11vw' }}>
         {body}
-        </Typography>
+      </Typography>
       </CardContent>
       <CardActions disableSpacing>
         {/* <IconButton aria-label="add to favorites">

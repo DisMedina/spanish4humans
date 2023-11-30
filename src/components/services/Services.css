@@ -66,6 +66,16 @@
 
   .u-text-small {
     font-size: 2.5vw;
-  } 
+  }
+
+  .card-text{
+    font-size: small;
+  }
+  
+}
+@media screen and (max-width: 564px) {
+  .card-text{
+    font-size: 2vw;
+  }
   
 }

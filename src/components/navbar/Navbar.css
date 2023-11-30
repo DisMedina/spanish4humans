@@ -40,7 +40,8 @@
 
 .nav_home,
 .nav_semblance,
-.nav_mission {
+.nav_mission,
+.nav_servicecards {
   text-decoration: none;
   color: #000; /* Non-active link color */
   font-weight: normal;
@@ -49,13 +50,15 @@
 
 .nav_home:hover,
 .nav_semblance:hover,
-.nav_mission:hover {
+.nav_mission:hover,
+.nav_servicecards:hover {
   color: #555; /* Hovered link color */
 }
 
 .nav_home.active,
 .nav_semblance.active,
-.nav_mission.active {
+.nav_mission.active,
+.nav_servicecards.active {
   color: #69ac8d; /* Active link color */
   font-weight: bold;
 }

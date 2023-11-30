@@ -16,9 +16,31 @@
   padding: 1.5rem;
 }
 
-.servicesList{
-  background-color: aqua;
-  list-style-type: none; /* Remove default list styling */
+.servicesList {
+  background-color: rgb(255, 255, 255);
+  list-style-type: none;
+  margin: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-left: 10px solid #69ac8d;
+  padding: 2%;
+  padding-left: 1%;
+  font-size: x-large;
+  font-weight: bolder;
+  max-height: 200px;
+  height: 150px;
+  transition: background-color 0.3s, border-left 0.3s; /* Add smooth transition for background-color and border-left */
+}
+.servicesList:hover {
+  background-color: #69ac8d;
+  border-left: 10px solid #876445;
+}
+
+.card-text{
+  font-size: large;
+}
+.card-text.bolder{
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {

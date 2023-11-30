@@ -82,6 +82,23 @@ const Navbar = () => {
               Our Purpose
             </ScrollLink>
           </li>
+          <li>
+            <ScrollLink
+              to="s4h_servicecards"
+              spy={true}
+              smooth={true}
+              offset={-70} // Adjust the offset as needed
+              duration={500}
+              className={activeSection === "s4h_servicecards" ? "nav_servicecards active" : "nav_servicecards"}
+              onClick={() => {
+                toggleMenu();
+                setActiveSection("s4h_servicecards");
+              }}
+              onSetActive={() => handleSetActive("s4h_servicecards")}
+            >
+              Courses
+            </ScrollLink>
+          </li>
           {/* Add more navigation items as needed */}
         </ul>
       </menu>

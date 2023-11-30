@@ -5,7 +5,6 @@ export { default as InfoCard } from "./infoCard/InfoCard"
 export { default as Footer } from "./footer/Footer";
 export { default as ServiceCards} from "./servicecards/ServiceCards";
 export { default as Services} from "./services/Services";
-export { default as ServicesTwo} from "./servicestwo/Services";
 export { default as HomePage} from "../pages/homepage/Home";
 export { default as PrivacyPolicy } from "../pages/privacypolicypage/privacypolicy";
 export { default as Carousel } from "./carousel/Carousel";

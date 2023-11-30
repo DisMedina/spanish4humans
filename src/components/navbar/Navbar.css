@@ -82,7 +82,7 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 756px) {
   /* show nav button on navbar menu */
   .nav-links {
     display: none;
@@ -99,7 +99,7 @@
     display: block;
     position: absolute;
     list-style: none;
-    background: #184fa0;
+    background: #69ac8d;
     opacity: 98%;
     left: 0;
     top: 80px;

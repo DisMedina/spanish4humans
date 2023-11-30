@@ -21,6 +21,7 @@ body, html {
   column-gap: 2rem;
 }
 
+
 section#footer {
   /* margin-top: 5%; */
   background: #69ac8d;
@@ -54,6 +55,11 @@ section#footer {
   margin-bottom: 5px;
 }
 
+@media (max-width: 800px) {
+  .footer-box a {
+    font-size: 1.2rem;
+  }
+}
 
 @media (max-width: 400px) {
   section#footer {

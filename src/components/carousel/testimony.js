@@ -70,7 +70,7 @@ export default function RecipeReviewCard({ index, title, body, image }) {
           fontSize: '1.3vh',
           maxWidth: '100%',
           height: '11vw',
-          '@media (max-width: 769px)': {
+          '@media (max-width: 1080px)': {
             fontSize: '1vw', // Adjust the font size for screens smaller than 600px
           },
           }}

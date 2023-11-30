@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { testimonies } from "../datasets/testimony_data";
 import ActionAreaCard from "./testimony";
+import "./Carousel.css";
 
 export default class AutoPlay extends Component {
   render() {
@@ -16,8 +17,7 @@ export default class AutoPlay extends Component {
       cssEase: "linear"
     };
     return (
-      <div>
-        {/* <h2>Auto Play</h2> */}
+      <div id="s4h_carousel" className="carousel-background">
         <Slider {...settings}>
         {testimonies.map((testimonies) => (
           <ActionAreaCard

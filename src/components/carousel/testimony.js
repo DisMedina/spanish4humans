@@ -14,6 +14,7 @@ import { red } from '@mui/material/colors';
 // import ShareIcon from '@mui/icons-material/Share';
 // import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
+import "./testimony.css";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -34,12 +35,12 @@ export default function RecipeReviewCard({ index, title, body, image }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 400, maxHeight: 550, backgroundColor: "#876445" }}>
       {/* backgroundColor: "#CA955C" */}
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "#876445" }} aria-label="recipe">
-            T
+          <Avatar sx={{ bgcolor: "#69ac8d" }} aria-label="recipe">
+            {index}
           </Avatar>
         }
         // action={
@@ -47,17 +48,22 @@ export default function RecipeReviewCard({ index, title, body, image }) {
         //   //   <MoreVertIcon />
         //   // </IconButton>
         // }
-        title={title}
-        subheader="September 14, 2016"
+        title={<Typography sx={{ fontSize: '2rem', color: 'white' }}>{title}</Typography>}
+        // subheader="September 14, 2016"
       />
       <CardMedia
         component="img"
-        height="194"
+        height="350"
         image={image}
         alt="placeholder"
+        sx={{
+          objectFit: 'cover',
+          objectPosition: 'center center',
+          width: '100%', // Ensure the image takes the full width of the container
+        }}
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="white" fontSize= '1rem'>
         {body}
         </Typography>
       </CardContent>

@@ -18,7 +18,7 @@ const ServiceCards = () => {
               title={service.title}
               body={service.body}
               detalles={service.detalles}
-              containerClass={''}
+              message = {service.message}
             />
           ))}
         </div>

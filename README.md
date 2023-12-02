@@ -36,8 +36,6 @@ To run the project locally, use the following command:
 npm start
 ```
 
-# Editing this README
-
 This will start the development server, and you can view your app at http://localhost:3000.
 
 ## Name

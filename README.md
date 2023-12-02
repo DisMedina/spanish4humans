@@ -1,6 +1,6 @@
 # Spanish for Humans
 
-![Project Logo/Description Image](./src/assets/logo-notext.png)
+![Project Logo/Description Image](./src/assets/logo2new.svg)
 
 ## Introduction
 

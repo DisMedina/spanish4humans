@@ -89,11 +89,11 @@ If you'd like to contribute to this project, please follow our Contribution Guid
 
 ## Authors and acknowledgment
 
-# Authors
+### Authors
 - Fabian V.
 - Sergio R.
 
-# Acknowledgment
+### Acknowledgment
 - Arely S. (Design)
 
 ## License

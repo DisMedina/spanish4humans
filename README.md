@@ -1,6 +1,6 @@
 # Spanish for Humans
 
-![Project Logo/Description Image](URL_TO_YOUR_LOGO_OR_DESCRIPTION_IMAGE)
+![Project Logo/Description Image](./src/assets/logo-notext.png)
 
 ## Introduction
 
@@ -95,7 +95,7 @@ If you'd like to contribute to this project, please follow our Contribution Guid
 - Fabian V.
 - Sergio R.
 
-# Authors
+# Acknowledgment
 - Arely S. (Design)
 
 ## License

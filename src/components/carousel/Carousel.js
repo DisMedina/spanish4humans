@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { testimonies } from "../datasets/testimony_data";
-import ActionAreaCard from "./testimony";
+import ActionAreaCard from "../actionAreaCard/actionAreaCard";
+import ActionImageCard from "../actionAreaCard/actionImageCard";
+
 import "./Carousel.css";
 
-export default class AutoPlay extends Component {
+export default class Carousel extends Component {
   render() {
+    const { data, onlyImages } = this.props;
+
     const settings = {
       dots: true,
       infinite: true,
@@ -14,20 +17,30 @@ export default class AutoPlay extends Component {
       autoplay: true,
       speed: 8000,
       autoplaySpeed: 8000,
-      cssEase: "linear"
+      cssEase: "linear",
     };
+
     return (
       <div id="s4h_carousel" className="carousel-background">
         <Slider {...settings}>
-        {testimonies.map((testimonies) => (
-          <ActionAreaCard
-            key={testimonies.id}
-            index={testimonies.id}
-            title={testimonies.title}
-            body={testimonies.body}
-            image={testimonies.image}
-          />
-        ))}
+          {data.map((item) => (
+            // Use a ternary operator to conditionally render either ActionAreaCard or ActionImageCard
+            onlyImages ? (
+              <ActionImageCard
+                key={item.id}
+                index={item.id}
+                image={item.image}
+              />
+            ) : (
+              <ActionAreaCard
+                key={item.id}
+                index={item.id}
+                title={item.title}
+                body={item.body}
+                image={item.image}
+              />
+            )
+          ))}
         </Slider>
       </div>
     );

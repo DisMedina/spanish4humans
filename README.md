@@ -1,92 +1,108 @@
-# Excelient-website
+# Spanish for Humans
 
+![Project Logo/Description Image](URL_TO_YOUR_LOGO_OR_DESCRIPTION_IMAGE)
 
+## Introduction
 
-## Getting started
+Welcome to **Spanish for Humans**, a React-based project designed to provide language learning resources with a human touch. Whether you're a beginner or looking to enhance your Spanish language skills, this project aims to make the learning experience enjoyable and effective.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Installation
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Before you start, make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-## Add your files
+1. **Clone the repository:**
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+    ```bash
+    git clone https://github.com/your-username/spanish-for-humans.git
+    ```
 
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd spanish-for-humans
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+## Getting Started
+
+To run the project locally, use the following command:
+
+```bash
+npm start
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/excelient/excelient-website.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/excelient/excelient-website/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
 
 # Editing this README
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+This will start the development server, and you can view your app at http://localhost:3000.
 
 ## Name
-Choose a self-explaining name for your project.
+Spanish For Humans
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+At Spanish for Humans, we believe that learning a language should be fun, relaxed, and tailored to your unique needs. Whether you're starting with basic words or preparing for a test like DELE, exploring Spanish for tourism, delving into Spanish for teachers, or even indulging in the flavors of Mexican cooking, our approach is designed to suit every age and proficiency level.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+If the rigid structure of formal education doesn't align with your lifestyle, you've found the perfect place. Our goal is to create an environment where you can not only learn but truly enjoy the journey at your own pace.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Ready to embark on a Spanish learning adventure? Contact me for a free trial lesson, and let's explore the beauty of the Spanish language together!
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+¡Bienvenidos a Spanish for Humans!
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## Project Structure
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+- src: Contains the source code for the project.
+- public: Static assets and HTML template.
+- node_modules: Node.js dependencies.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Dependencies
+
+- @emailjs/browser: Used for email functionality.
+- @emotion/react: Library for styling React components.
+- @mui/material: React components following Material-UI design principles.
+- @testing-library/react: Testing utilities for React.
+- aos: Animate on Scroll library.
+- framer-motion: Animation library for React.
+- localforage: Library for offline data storage.
+- react-icons: Library providing popular icons for React applications.
+- react-router-dom: Routing library for React.
+- react-scripts: Configuration and scripts for Create React App.
+- react-scroll: Smooth scrolling for React applications.
+- react-slick: Carousel component for React.
+- react-touch-carousel: Carousel component with touch support.
+- slick-carousel: Carousel component for web applications.
+- web-vitals: Library for measuring web vitals metrics.
+
+## Scripts
+
+- start: Start the development server.
+- build: Build the production-ready application.
+- test: Run tests.
+- eject: Eject from Create React App configuration.
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+If you'd like to contribute to this project, please follow our Contribution Guidelines.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## Roadmap
+- [ ] Integration of a formal "contact me" form.
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+
+# Authors
+- Fabian V.
+- Sergio R.
+
+# Authors
+- Arely S. (Design)
 
 ## License
-For open source projects, say how it is licensed.
+License
+This project is licensed under the MIT License. May change.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+On development for version 1.0
+
+Happy Learning!

@@ -7,7 +7,7 @@ const Semblance = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    // navigate("/aboutus");
+    navigate("/aboutus");
   };
 
   return (

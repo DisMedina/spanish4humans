@@ -1,0 +1,14 @@
+.spacer{
+    height: 5vh;
+}
+.img-background-about {
+    width: 420px;
+    height: 680px;
+    left: 0px;
+    top: 0px;
+    background: url("../../assets/profile_v3.jpg"), #333333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import { services } from "../datasets/servicecardsdata-one";
+import { services } from "../datasets";
 import { Services } from "../../components";
 import "./servicecards.css"
 import "aos/dist/aos.css";

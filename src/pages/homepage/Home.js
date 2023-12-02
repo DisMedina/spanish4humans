@@ -7,6 +7,7 @@ import {
     Missionvision,
   } from "../../components";
   import './Home.css';
+  import { testimonies } from "../../components/datasets";
 
 const HomePage = () => {
     return (
@@ -16,7 +17,7 @@ const HomePage = () => {
             <Semblance data-aos="fade-up"/>
             <Missionvision data-aos="fade-up"/>
             <ServiceCards data-aos="fade-right"/>
-            <Carousel/>
+            <Carousel data={testimonies}/>
         </header>
         </>
     );

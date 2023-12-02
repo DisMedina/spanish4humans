@@ -1,42 +1,40 @@
-import React from "react";
-import {
-    Header,
-    Semblance,
-    ServiceCards,
-    Carousel,
-    Missionvision,
-  } from "../../components";
-  import './TeacherPage.css';
+import React, { useEffect } from "react";
+import './TeacherPage.css';
+import { aboutPictures } from "../../components/datasets";
+import { Carousel } from "../../components";
 
 const TeacherPage = () => {
-    return (
-        <>
-        <header className="header-bg">
-        <section className="section-background2">
-      <div className="container-diamond">
-        <div className="img-background" />
-        <div className="inner-container">
-          <h2 className="h-titleS">SEMBLANCE</h2>
-          <h2 className="h-titleSub">
-            Unlocking <span className="highlighted-text">Spanish</span>: Language{" "}
-            <span className="highlighted-text">Learning</span> for the Curious Minds.
-          </h2>
+  useEffect(() => {
+    // Scroll to the top of the page when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
 
-          <p className="card-text">
-            ¡Hola! My name is Patricia and I am a native speaker of Spanish from Mexico. I
-            have certification to teach Spanish as a Second Language from the Universidad
-            Nacional Autónoma de México and have a degree in Drama from the same university.
-            I have also taken a lot of courses on virtual teaching. I have been teaching
-            Spanish since 2016, mainly to adolescents and adults. I specialize in test
-            preparation (DELE), Spanish for tourism, Spanish for teachers, and Mexican
-            cooking. contact me for a free trial lesson!
-          </p>
+  return (
+    <>
+      <div className="spacer" />
+      <section className="section-background2">
+        <div className="container-diamond">
+          <div className="inner-container">
+            <h2 className="h-titleS">About Me</h2>
+            <h2 className="h-titleSub">
+              Journey into <span className="highlighted-text">Expertise</span>: About the <span className="highlighted-text">Teacher</span>
+            </h2>
+
+            <p className="card-text">
+              Patricia Rivera is a Mexican screenwriter, writer, playwright and film director with a degree in Dramatic Literature and Theater from the National
+              Autonomous University of Mexico (UNAM) and a degree in Film writing and directing from Faculty of Filmmaking. She has a degree in Spanish as a Foreign
+              Language from CEPE UNAM and has seven years of experience with groups of children, teenagers, adults and seniors. She uses are mixed and personalized
+              teaching techniques according to the needs of each student. She has over 3200 hours of teaching Spanish as a foreign language in front of students since
+              2016.
+            </p>
+          </div>
+          <div className="img-background-about" />
         </div>
-      </div>
-    </section>
-        </header>
-        </>
-    );
+        <div className="spacer" />
+        <Carousel data={aboutPictures} onlyImages={true}/>
+      </section>
+    </>
+  );
 };
 
 export default TeacherPage;

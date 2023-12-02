@@ -4,17 +4,24 @@ import { RiCloseLine } from "react-icons/ri";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import logo from "../../assets/logo2new.svg";
 import "./Navbar.css";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [activeSection, setActiveSection] = useState(null);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
+  const navigateHome = () => {
+    if (location.pathname === "/") {
+      scroll.scrollToTop();
+    } else {
+      navigate("/");
+    }
   };
 
   const handleSetActive = (to) => {
@@ -23,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar container_nav">
-      <div className="logo" onClick={scrollToTop}>
+      <div className="logo" onClick={navigateHome}>
         <img src={logo} alt="Logo" />
       </div>
       <menu>
@@ -33,7 +40,7 @@ const Navbar = () => {
         >
           <li>
             <ScrollLink
-              to="s4h_home"
+              // to="s4h_home"
               spy={true}
               smooth={true}
               offset={-70} // Adjust the offset as needed
@@ -41,9 +48,10 @@ const Navbar = () => {
               className={activeSection === "s4h_home" ? "nav_home active" : "nav_home"}
               onClick={() => {
                 toggleMenu();
+                navigateHome();
                 setActiveSection("s4h_home");
               }}
-              onSetActive={() => handleSetActive("s4h_home")}
+              // onSetActive={() => handleSetActive("s4h_home")}
             >
               Home
             </ScrollLink>

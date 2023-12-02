@@ -1,4 +1,4 @@
-export const services = [
+const services = [
   {
     id: 1,
     clase: "icon1 icon-size-wide",
@@ -28,3 +28,5 @@ export const services = [
     detalles: [],
   },
 ];
+
+export default services;

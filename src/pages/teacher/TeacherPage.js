@@ -23,7 +23,7 @@ const TeacherPage = () => {
             <p className="card-text">
               Patricia Rivera is a Mexican screenwriter, writer, playwright and film director with a degree in Dramatic Literature and Theater from the National
               Autonomous University of Mexico (UNAM) and a degree in Film writing and directing from Faculty of Filmmaking. She has a degree in Spanish as a Foreign
-              Language from CEPE UNAM and has seven years of experience with groups of children, teenagers, adults and seniors. She uses are mixed and personalized
+              Language from CEPE UNAM and has eight years of experience with groups of children, teenagers, adults and seniors. She uses are mixed and personalized
               teaching techniques according to the needs of each student. She has over 3200 hours of teaching Spanish as a foreign language in front of students since
               2016.
             </p>

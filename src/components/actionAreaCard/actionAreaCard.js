@@ -12,7 +12,7 @@ import "./actionAreaCard.css";
 export default function RecipeReviewCard({ index, title, body, image }) {
 
   return (
-    <Card sx={{ maxWidth: 550, maxHeight: 680, backgroundColor: "#876445" }}>
+    <Card sx={{ maxWidth: 550, maxHeight: 680, backgroundColor: "#c4e899" }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "#69ac8d" }} aria-label="recipe">

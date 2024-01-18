@@ -46,7 +46,7 @@
   font-size: 15px !important;
   text-transform: uppercase;
   /* margin-bottom: 30px; */
-  color: #69ac8d;
+  color: #c4e899;
   /* display: 'inline' */
 }
 .h-titleSub {
@@ -58,7 +58,7 @@
   margin-bottom: 30px;
 }
 .highlighted-text {
-  color: #69ac8d !important;
+  color: #c4e899 !important;
 }
 
 section#download {
@@ -131,7 +131,7 @@ section#download {
 /* boton */
 
 .slide {
-  background-color: #69ac8d;
+  background-color: #c4e899;
   max-width: 480px;
   margin-top: 10%;
   padding: 3%;

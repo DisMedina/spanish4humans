@@ -17,12 +17,12 @@
 }
 
 .servicesList {
-  background-color: rgb(255, 255, 255);
+  background-color: #dfdfdf;
   list-style-type: none;
   margin: 1%;
   margin-left: 4%;
   margin-right: 4%;
-  border-left: 10px solid #69ac8d;
+  border-left: 10px solid #c4e899;
   padding: 2%;
   padding-left: 1%;
   font-size: x-large;
@@ -32,8 +32,8 @@
   transition: background-color 0.3s, border-left 0.3s;
 }
 .servicesList:hover {
-  background-color: #69ac8d;
-  border-left: 10px solid #876445;
+  background-color: #c4e899;
+  border-left: 10px solid #dfdfdf;
 }
 
 .card-text{
@@ -48,8 +48,8 @@
 }
 
 .card-button {
-  background-color: #876445;
-  color: #fff;
+  background-color: #c4e899;
+  color: #000000;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -60,7 +60,7 @@
   transition: background-color 0.3s, color 0.3s;
 
   &:hover {
-    background-color: #e2791e;
+    background-color: #758a5b;
   }
 }
 

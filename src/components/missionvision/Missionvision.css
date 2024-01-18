@@ -23,7 +23,7 @@
 
 .container-square-background {
   /* background-color: rgb(104, 172, 140) */
-  background: linear-gradient(110deg, rgba(104, 172, 140, 1) 0%, rgb(184, 224, 206) 51%, rgb(190, 167, 145) 51%, rgba(135, 100, 69, 1) 100%);
+  background: linear-gradient(110deg, rgba(196, 232, 153, 1) 0%, rgb(255, 255, 255) 51%, rgb(255, 255, 255) 51%, rgb(255, 255, 255) 100%);
 
 }
 
@@ -35,10 +35,10 @@
 }
 
 .highlighted-text-1 {
-  color: #876445 !important;
+  font-weight:1000;
 }
 .highlighted-text-2 {
-  color: #87ddb5 !important;
+  color: #c4e899 !important;
 }
 
 .info-title {

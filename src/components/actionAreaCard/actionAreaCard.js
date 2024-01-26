@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
@@ -8,11 +8,23 @@ import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import "./actionAreaCard.css";
+import { useNavigate } from "react-router-dom";
 
-export default function RecipeReviewCard({ index, title, body, image }) {
+const RecipeReviewCard = ({ index, title, body, image, snippet }) => {
 
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate(`/aboutthem/${index}`, {
+      state: {
+        title,
+        body,
+        image,
+      },
+    });
+  };
+  
   return (
-    <Card sx={{ maxWidth: 550, maxHeight: 680, backgroundColor: "#ffffff", borderTop: "5px solid #69ac8d", borderBottom: "5px solid #69ac8d" }}>
+    <Card sx={{ maxWidth: 550, maxHeight: 600, backgroundColor: "#ffffff", borderTop: "5px solid #69ac8d", borderBottom: "5px solid #69ac8d"}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "#c4e899" }} aria-label="recipe">
@@ -33,22 +45,26 @@ export default function RecipeReviewCard({ index, title, body, image }) {
         }}
       />
       <CardContent>
-      <Typography 
-        variant="body2" 
-        color="#69ac8d" 
-        sx={{ 
-          fontSize: '1.3vh',
-          maxWidth: '100%',
-          height: '11vw',
-          '@media (max-width: 1080px)': {
-            fontSize: '1vw',
-          },
+        <Typography 
+          variant="body2" 
+          color="#69ac8d" 
+          sx={{ 
+            fontSize: '1.3vh',
+            maxWidth: '100%',
+            height: '5vw',
+            fontWeight: "Bold",
+            '@media (max-width: 1080px)': {
+              fontSize: '1vw',
+            },
           }}
-      >
-        {body}
-      </Typography>
+        >
+          {snippet}
+        </Typography>
       </CardContent>
       <CardActions disableSpacing>
+        <button className='slider-button' onClick={handleButtonClick}>
+            Know more about my experience
+        </button>
       </CardActions>
       <Collapse timeout="auto" unmountOnExit>
         <CardContent>
@@ -60,4 +76,6 @@ export default function RecipeReviewCard({ index, title, body, image }) {
       </Collapse>
     </Card>
   );
-}
+};
+
+export default RecipeReviewCard;

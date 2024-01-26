@@ -10,4 +10,5 @@ export { default as PrivacyPolicy } from "../pages/privacypolicypage/privacypoli
 export { default as Carousel } from "./carousel/Carousel";
 export { default as Missionvision} from "./missionvision/Missionvision";
 export { default as TeacherPage} from "../pages/teacher/TeacherPage";
+export { default as AlumniPage} from "../pages/alumni/AlumniPage";
 

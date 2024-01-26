@@ -6,6 +6,7 @@ import {
   Footer,
   HomePage,
   TeacherPage,
+  AlumniPage
 } from "./components";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route  exact path="/" element={<HomePage />} />
             <Route path="/aboutus" element={<TeacherPage />} />
+            <Route path="/aboutthem/:id" element={<AlumniPage />} />
           </Routes>
         </BrowserRouter>
       <Footer />

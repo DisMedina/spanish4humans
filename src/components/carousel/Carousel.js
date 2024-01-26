@@ -38,6 +38,7 @@ export default class Carousel extends Component {
                 title={item.title}
                 body={item.body}
                 image={item.image}
+                snippet={item.snippet}
               />
             )
           ))}

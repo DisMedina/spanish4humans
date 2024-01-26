@@ -89,6 +89,19 @@ button.proposition-icons {
   }
 }
 
-/* .slider-card {
-  background-color: blue;
-} */
+.slider-button {
+  background-color: #c4e899;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  bottom: 10px;
+  right: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: auto;  /* This pushes the button to the right */
+
+  &:hover {
+    background-color: #758a5b;
+  }
+}

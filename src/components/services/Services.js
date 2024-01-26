@@ -2,18 +2,11 @@ import React from "react";
 import "./Services.css";
 import "./cardAnimation.css";
 
-const obfuscatedNumber = "MTU1NDc3ODkwNDc=";
-const Services = ({ title, body, detalles, message }) => {
-  const decodeNumber = (obfuscated) => {
-    return atob(obfuscated);
-  };
-
-  const sendWhatsAppMessage = () => {
-    console.log(message);
-    const decodedNumber = decodeNumber(obfuscatedNumber);
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappLink = `https://wa.me/${decodedNumber}?text=${encodedMessage}`;
-    window.open(whatsappLink, "_blank");
+const Services = ({ title, body, detalles, meetingType }) => {
+  const scheduleLesson = () => {
+    const eventDetails = encodeURIComponent(`Meeting Type: ${meetingType}\nDetails: ${detalles}`);
+    const gCalendarLink = `https://calendar.app.google/EaLse3iRPLuUS1Z49?text=${encodeURIComponent(title)}&details=${eventDetails}`;
+    window.open(gCalendarLink, "_blank");
   };
 
   return (
@@ -23,8 +16,8 @@ const Services = ({ title, body, detalles, message }) => {
         <div className="card-body">
           <p className="card-text bolder">{body}</p>
           <p className="card-text">{detalles}</p>
-          <button className="card-button" onClick={sendWhatsAppMessage}>
-            Contact via WhatsApp
+          <button className="card-button" onClick={scheduleLesson}>
+            Schedule a Lesson
           </button>
         </div>
       </li>

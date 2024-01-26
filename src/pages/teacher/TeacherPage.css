@@ -6,12 +6,15 @@
     height: 680px;
     left: 0px;
     top: 0px;
-    background: url("../../assets/profile_v3.jpg"), #333333;
+    background: url("../../assets/about_4-transformed.jpeg"), #333333;
+    /*background: url("../../assets/profile_v3.jpg"), #333333;*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left center;
     border-radius: 50%;
   }
+      /*background: url("../../assets/profile_v3.jpg"), #333333;*/
+
 
   @media screen and (max-width: 600px) {
     .img-background-about {

@@ -7,7 +7,7 @@ const Footer = () => {
     <section id="footer">
       <div className="container_footer footer">
         <div className="footer-box">
-          <h4>Lets Connect</h4>
+          <h4>Let's Connect</h4>
           <div className="footer-links">
             <Social />
           </div>

@@ -5,7 +5,7 @@ const services = [
     title: "Trial Lesson",
     meetingType: "Hola, me gustaria agendar un -trial lesson-",
     body: `Meet your teacher and review your current level of Spanish, tell us what your Spanish goal is and how much time you have available to reach it. Together we will create a plan to help you reach your goal!`,
-    detalles: `A 30 min free level evaluation and personalized proposal for learning can be the first step.`,
+    detalles: `A free level evaluation and personalized proposal for learning can be the first step.`,
   },  
   {
     id: 2,

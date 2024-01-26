@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import logo from "../../assets/logo2new.svg";
+import logo from "../../assets/SH_Logo_Small.svg";
 import "./Navbar.css";
 import { useLocation, useNavigate } from "react-router-dom";
 

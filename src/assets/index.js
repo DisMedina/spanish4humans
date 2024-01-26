@@ -7,8 +7,8 @@ export { default as headerBackGroundBlur } from "./gabriel-benois-qnWPjzewewA-un
 export { default as headerBackGround } from "./gabriel-benois-qnWPjzewewA-unsplash.jpg";
 export { default as icon7 } from "./icon-7.svg";
 export { default as kenPicture } from "./ken.jpg";
-export { default as logoNoText } from "./logo-notext.png";
-export { default as logo1BottomText } from "./logo1-bottomtext.svg";
+export { default as logoNoText } from "./SH_Logo_Small.png";
+export { default as logo1BottomText } from "./SH_Logo_Full.svg";
 export { default as logo2SideText } from "./logo2-sidetext.png";
 export { default as logo2SideTextSVG } from "./logo2-sidetext.svg";
 export { default as logo2NewSVG } from "./logo2new.svg";

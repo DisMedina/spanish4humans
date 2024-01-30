@@ -1,17 +1,18 @@
 .spacer{
     height: 5vh;
 }
-.img-background-about {
-    width: 420px;
-    height: 680px;
-    left: 0px;
-    top: 0px;
-    background: url("../../assets/about_4-transformed.jpeg"), #333333;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    border-radius: 50%;
-  }
+.img-background-about-teacher {
+  width: 420px;
+  height: 680px;
+  left: 0px;
+  top: 0px;
+  background: url("../../assets/about_4-transformed.jpeg"), #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center !important; /* Adjusted the background position to right */
+  border-radius: 50%;
+}
+
 
   @media screen and (max-width: 600px) {
     .img-background-about {

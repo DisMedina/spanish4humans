@@ -28,7 +28,7 @@ const TeacherPage = () => {
               2016.
             </p>
           </div>
-          <div className="img-background-about" />
+          <div className="img-background-about-teacher" />
         </div>
         <div className="spacer" />
         <Carousel data={aboutPictures} onlyImages={true}/>

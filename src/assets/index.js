@@ -1,8 +1,9 @@
-export { default as aboutPicture1 } from "./about_1.jpg";
-export { default as aboutPicture2 } from "./about_2.jpg";
-export { default as aboutPicture3 } from "./about_3.jpg";
-export { default as aboutPicture4 } from "./about_4.jpg";
-export { default as aboutPicture5 } from "./about_5.jpg";
+export { default as aboutPicture1 } from "./about_6.jpg";
+export { default as aboutPicture2 } from "./about_7.jpg";
+export { default as aboutPicture3 } from "./about_8.jpg";
+export { default as aboutPicture4 } from "./about_9.jpg";
+export { default as aboutPicture5 } from "./about_10.jpg";
+export { default as aboutPicture6 } from "./about_11.jpg";
 export { default as headerBackGroundBlur } from "./gabriel-benois-qnWPjzewewA-unsplash-blur.png";
 export { default as headerBackGround } from "./gabriel-benois-qnWPjzewewA-unsplash.jpg";
 export { default as icon7 } from "./icon-7.svg";

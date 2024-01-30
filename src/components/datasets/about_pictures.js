@@ -1,4 +1,4 @@
-import {placeholder, aboutPicture1, aboutPicture2, aboutPicture3, profilePicture3, aboutPicture5} from "../../assets"
+import { aboutPicture1, aboutPicture2, aboutPicture3, aboutPicture5, aboutPicture6} from "../../assets"
 
 const aboutPictures = [
   {
@@ -19,12 +19,12 @@ const aboutPictures = [
   {
     id: 4,
     title: "4",
-    image: profilePicture3,
+    image: aboutPicture5,
   },
   {
-    id: 4,
-    title: "4",
-    image: aboutPicture5,
+    id: 5,
+    title: "5",
+    image: aboutPicture6,
   },
 ];
 

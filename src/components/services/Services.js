@@ -16,9 +16,13 @@ const Services = ({ title, body, detalles, meetingType }) => {
         <div className="card-body">
           <p className="card-text bolder">{body}</p>
           <p className="card-text">{detalles}</p>
-          <button className="card-button" onClick={scheduleLesson}>
-            Schedule a Lesson
-          </button>
+          {title === "Group classes by level" || title === "Conversational group classes by level" ? (
+            <a className="card-button" href={`mailto:humanslearnspanish@gmail.com?subject=${meetingType}&body=${body}`}>Schedule a Lesson</a>
+          ) : (
+            <button className="card-button" onClick={scheduleLesson}>
+              Schedule a Lesson
+            </button>
+          )}
         </div>
       </li>
     </div>

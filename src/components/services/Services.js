@@ -17,7 +17,7 @@ const Services = ({ title, body, detalles, meetingType }) => {
           <p className="card-text bolder">{body}</p>
           <p className="card-text">{detalles}</p>
           {title === "Group classes by level" || title === "Conversational group classes by level" ? (
-            <a className="card-button" href={`mailto:humanslearnspanish@gmail.com?subject=${meetingType}&body=${body}`}>Schedule a Lesson</a>
+            <a className="card-button" href={`mailto:humanslearnspanish@gmail.com?subject=${meetingType}&body=${body}`}>Click to Send an Email</a>
           ) : (
             <button className="card-button" onClick={scheduleLesson}>
               Schedule a Lesson

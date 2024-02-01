@@ -12,7 +12,7 @@ import {
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/spanish4humans">
       <Navbar />
           <Routes>
             <Route  exact path="/" element={<HomePage />} />

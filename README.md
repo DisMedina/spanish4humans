@@ -27,7 +27,7 @@ Before you start, make sure you have [Node.js](https://nodejs.org/) installed on
     ```bash
     npm install
     ```
-
+3.5
 ## Getting Started
 
 To run the project locally, use the following command:

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spanish4humans/static/css/main.ef367d0d.css",
-    "main.js": "/spanish4humans/static/js/main.44e39e1c.js",
+    "main.js": "/spanish4humans/static/js/main.dcea298c.js",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash.jpg": "/spanish4humans/static/media/gabriel-benois-qnWPjzewewA-unsplash.44132f933bc8e00bdcc7.jpg",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.png": "/spanish4humans/static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.05811442eec9027d8ca0.png",
     "static/media/placeholder.png": "/spanish4humans/static/media/placeholder.07b001f90d87e86f3556.png",
@@ -24,18 +24,18 @@
     "static/media/profilePicture-2.jpg": "/spanish4humans/static/media/profilePicture-2.05c070194a9003179908.jpg",
     "static/media/logo2-sidetext.png": "/spanish4humans/static/media/logo2-sidetext.b12f92acafc277ba7ed1.png",
     "static/media/SfHlogo.png": "/spanish4humans/static/media/SfHlogo.585b3e810e24031bd1e2.png",
-    "static/media/logo2-sidetext.svg": "/spanish4humans/static/media/logo2-sidetext.c086b27a106450ec6a4b09954e6b5279.svg",
-    "static/media/logo2new.svg": "/spanish4humans/static/media/logo2new.74ac8bf18216ea232e8f8f3e21c45283.svg",
+    "static/media/logo2-sidetext.svg": "/spanish4humans/static/media/logo2-sidetext.b6af6908a46ec790f2ffcf24b776b441.svg",
+    "static/media/logo2new.svg": "/spanish4humans/static/media/logo2new.9e0c4c9528ce764e36a437cdfe4e267f.svg",
     "static/media/SH_Logo_Full.svg": "/spanish4humans/static/media/SH_Logo_Full.122f878172d9f1f15dadcc702a2616a8.svg",
     "static/media/SH_Logo_Black_Long.svg": "/spanish4humans/static/media/SH_Logo_Black_Long.ffc4263b4039674f033b8c1953c2251d.svg",
     "index.html": "/spanish4humans/index.html",
-    "static/media/icon-7.svg": "/spanish4humans/static/media/icon-7.611cad2c10f6132ed08deabc76b5bd82.svg",
+    "static/media/icon-7.svg": "/spanish4humans/static/media/icon-7.5db7e1150c98c101dbc0c113986d46c3.svg",
     "static/media/person.svg": "/spanish4humans/static/media/person.23033915d2a565ff8a1a04eed1f24cfe.svg",
     "main.ef367d0d.css.map": "/spanish4humans/static/css/main.ef367d0d.css.map",
-    "main.44e39e1c.js.map": "/spanish4humans/static/js/main.44e39e1c.js.map"
+    "main.dcea298c.js.map": "/spanish4humans/static/js/main.dcea298c.js.map"
   },
   "entrypoints": [
     "static/css/main.ef367d0d.css",
-    "static/js/main.44e39e1c.js"
+    "static/js/main.dcea298c.js"
   ]
 }

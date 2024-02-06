@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spanish4humans/static/css/main.ef367d0d.css",
-    "main.js": "/spanish4humans/static/js/main.008a0411.js",
+    "main.js": "/spanish4humans/static/js/main.a1eb529f.js",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash.jpg": "/spanish4humans/static/media/gabriel-benois-qnWPjzewewA-unsplash.44132f933bc8e00bdcc7.jpg",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.png": "/spanish4humans/static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.05811442eec9027d8ca0.png",
     "static/media/placeholder.png": "/spanish4humans/static/media/placeholder.07b001f90d87e86f3556.png",
@@ -32,10 +32,10 @@
     "static/media/icon-7.svg": "/spanish4humans/static/media/icon-7.5db7e1150c98c101dbc0c113986d46c3.svg",
     "static/media/person.svg": "/spanish4humans/static/media/person.23033915d2a565ff8a1a04eed1f24cfe.svg",
     "main.ef367d0d.css.map": "/spanish4humans/static/css/main.ef367d0d.css.map",
-    "main.008a0411.js.map": "/spanish4humans/static/js/main.008a0411.js.map"
+    "main.a1eb529f.js.map": "/spanish4humans/static/js/main.a1eb529f.js.map"
   },
   "entrypoints": [
     "static/css/main.ef367d0d.css",
-    "static/js/main.008a0411.js"
+    "static/js/main.a1eb529f.js"
   ]
 }

@@ -55,7 +55,7 @@
   text-align: justify;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container-square {
     flex-direction: column;
     height: auto; /* Adjusted for dynamic height based on content */
@@ -66,9 +66,4 @@
     margin: 0;
   }
 
-  .container-square-background {
-    /* background-color: rgb(104, 172, 140) */
-    background: linear-gradient(180deg, rgba(104, 172, 140, 1) 0%, rgb(184, 224, 206) 51%, rgb(190, 167, 145) 51%, rgba(135, 100, 69, 1) 100%);
-  
-  }
 }

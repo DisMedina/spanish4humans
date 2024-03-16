@@ -147,9 +147,9 @@ const Navbar = () => {
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (
-          <RiCloseLine color="#fff" size={30} />
+          <RiCloseLine color="#69ac8d" size={30} />
         ) : (
-          <AiOutlineBars color="#fff" size={27} />
+          <AiOutlineBars color="#69ac8d" size={27} />
         )}
       </div>
     </nav>

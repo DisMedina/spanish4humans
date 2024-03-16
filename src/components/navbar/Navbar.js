@@ -1,16 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import logo from "../../assets/SH_Logo_Black_Long.svg";
+import mobileLogo from "../../assets/SH_Logo_Small.svg";
+import desktopLogo from "../../assets/SH_Logo_Black_Long.svg";
 import "./Navbar.css";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [activeSection, setActiveSection] = useState(null);
+  const [logoSrc, setLogoSrc] = useState('');
   const location = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth <= 1024) {
+        setLogoSrc(mobileLogo);
+      } else {
+        setLogoSrc(desktopLogo);
+      }
+    }
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -31,14 +51,14 @@ const Navbar = () => {
   return (
     <nav className="navbar container_nav">
       <div className="logo" onClick={navigateHome}>
-        <img src={logo} alt="Logo" />
+        <img src={logoSrc} alt="Logo" />
       </div>
       <menu>
         <ul
           className="nav-links"
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
-          <li>
+        <li>
             <ScrollLink
               // to="s4h_home"
               spy={true}
@@ -123,9 +143,7 @@ const Navbar = () => {
             >
               Testimonies
             </ScrollLink>
-          </li>
-          {/* Add more navigation items as needed */}
-        </ul>
+          </li>        </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (

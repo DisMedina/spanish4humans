@@ -23,9 +23,6 @@ const Footer = () => {
         </div>
         <div className="footer-box">
           <h4>Legal</h4>
-          <div className="footer-contact u-text-small hidden">
-            <a href="#"> Terms & conditions </a> 
-          </div>
           <div className="footer-contact u-text-small">
             <a href="/privacypolicy"> Privacy policy </a>
           </div>
@@ -33,12 +30,6 @@ const Footer = () => {
         <div className="footer-box hidden">
           <h4>More about Spanish For Humans</h4>
           <div className="footer-contact u-text-small">
-          <div className="footer-contact u-text-small">
-            <a href="#"> Blog </a> 
-          </div>
-          <div className="footer-contact u-text-small">
-            <a href="#"> FAQ </a>
-          </div>
           </div>
         </div>
       </div>

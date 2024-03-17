@@ -7,7 +7,7 @@ section#subscribe {
 
 .social-icons {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .social-icon {
@@ -16,8 +16,8 @@ section#subscribe {
   width: 4rem;
   height: 4rem;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 2rem;
   color: #876445;
   transition: all 0.3s;

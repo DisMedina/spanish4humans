@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.88c8de4a.css",
-    "main.js": "/static/js/main.b919d7ae.js",
+    "main.css": "/static/css/main.d3e7abdb.css",
+    "main.js": "/static/js/main.57da2337.js",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash.jpg": "/static/media/gabriel-benois-qnWPjzewewA-unsplash.44132f933bc8e00bdcc7.jpg",
     "static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.png": "/static/media/gabriel-benois-qnWPjzewewA-unsplash-blur.05811442eec9027d8ca0.png",
     "static/media/placeholder.png": "/static/media/placeholder.07b001f90d87e86f3556.png",
@@ -28,14 +28,15 @@
     "static/media/logo2new.svg": "/static/media/logo2new.9e0c4c9528ce764e36a437cdfe4e267f.svg",
     "static/media/SH_Logo_Full.svg": "/static/media/SH_Logo_Full.122f878172d9f1f15dadcc702a2616a8.svg",
     "static/media/SH_Logo_Black_Long.svg": "/static/media/SH_Logo_Black_Long.ffc4263b4039674f033b8c1953c2251d.svg",
+    "static/media/SH_Logo_Small.svg": "/static/media/SH_Logo_Small.573a208e5c46263df7d43c97e53d8bd4.svg",
     "static/media/icon-7.svg": "/static/media/icon-7.5db7e1150c98c101dbc0c113986d46c3.svg",
     "index.html": "/index.html",
     "static/media/person.svg": "/static/media/person.23033915d2a565ff8a1a04eed1f24cfe.svg",
-    "main.88c8de4a.css.map": "/static/css/main.88c8de4a.css.map",
-    "main.b919d7ae.js.map": "/static/js/main.b919d7ae.js.map"
+    "main.d3e7abdb.css.map": "/static/css/main.d3e7abdb.css.map",
+    "main.57da2337.js.map": "/static/js/main.57da2337.js.map"
   },
   "entrypoints": [
-    "static/css/main.88c8de4a.css",
-    "static/js/main.b919d7ae.js"
+    "static/css/main.d3e7abdb.css",
+    "static/js/main.57da2337.js"
   ]
 }

@@ -9,7 +9,7 @@
   background: url("../../assets/about_4-transformed.jpeg"), #333333;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left center !important; /* Adjusted the background position to right */
+  background-position: left center !important;
   border-radius: 50%;
 }
 

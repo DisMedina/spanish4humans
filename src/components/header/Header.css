@@ -6,7 +6,6 @@
   padding-bottom: 0%;
 }
 a {
-  /* border-radius: 100px; */
   font-size: 16px;
   font-weight: 300;
   color: #fff;
@@ -47,7 +46,7 @@ a {
 }
 
 .long {
-  white-space: normal; /*nowrap*/
+  white-space: normal;
 }
 
 .header-left p {

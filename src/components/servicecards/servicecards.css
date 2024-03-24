@@ -1,6 +1,5 @@
 .container-proposition {
     justify-content: space-evenly !important;
-    /* margin-top: -85px !important;  */
     display: flex;
     flex-direction: row;
     justify-content: center;

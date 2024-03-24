@@ -9,9 +9,7 @@
   background-color: #ffffff;
   padding: 15px;
   z-index: 1000;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); /* Add this line for drop shadow */
-
-  /* Additional styling if needed */
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -19,7 +17,6 @@
   max-height: 9em;
   margin: 0 auto;
   padding: 0 20px;
-  /* height: 10%; */
 }
 
 .logo {
@@ -44,7 +41,7 @@
 .nav_servicecards,
 .nav_carousel {
   text-decoration: none;
-  color: #000; /* Non-active link color */
+  color: #000;
   font-weight: normal;
   transition: color 0.3s ease-in-out;
 }
@@ -54,7 +51,7 @@
 .nav_mission:hover,
 .nav_servicecards:hover,
 .nav_carousel:hover {
-  color: #555; /* Hovered link color */
+  color: #555;
 }
 
 .nav_home.active,
@@ -62,7 +59,7 @@
 .nav_mission.active,
 .nav_servicecards.active,
 .nav_carousel.active {
-  color: #69ac8d; /* Active link color */
+  color: #69ac8d;
   font-weight: bold;
 }
 
@@ -83,7 +80,6 @@
 
 /* Media Queries */
 @media screen and (max-width: 756px) {
-  /* show nav button on navbar menu */
   .nav-links {
     display: none;
     border: 2px solid #fff;
@@ -105,7 +101,6 @@
     top: 80px;
     width: 100%;
     transition: all 0.3s;
-    /*border-top: 1px solid #fff;*/
     border: none;
     padding-bottom: 5px;
   }

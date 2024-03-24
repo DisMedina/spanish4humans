@@ -60,10 +60,9 @@ const Navbar = () => {
         >
         <li>
             <ScrollLink
-              // to="s4h_home"
               spy={true}
               smooth={true}
-              offset={-70} // Adjust the offset as needed
+              offset={-70}
               duration={500}
               className={activeSection === "s4h_home" ? "nav_home active" : "nav_home"}
               onClick={() => {
@@ -71,7 +70,6 @@ const Navbar = () => {
                 navigateHome();
                 setActiveSection("s4h_home");
               }}
-              // onSetActive={() => handleSetActive("s4h_home")}
             >
               Home
             </ScrollLink>
@@ -81,7 +79,7 @@ const Navbar = () => {
               to="s4h_semblance"
               spy={true}
               smooth={true}
-              offset={-70} // Adjust the offset as needed
+              offset={-70}
               duration={500}
               className={activeSection === "s4h_semblance" ? "nav_semblance active" : "nav_semblance"}
               onClick={() => {
@@ -98,7 +96,7 @@ const Navbar = () => {
               to="s4h_mission"
               spy={true}
               smooth={true}
-              offset={-70} // Adjust the offset as needed
+              offset={-70}
               duration={500}
               className={activeSection === "s4h_mission" ? "nav_mission active" : "nav_mission"}
               onClick={() => {
@@ -115,7 +113,7 @@ const Navbar = () => {
               to="s4h_servicecards"
               spy={true}
               smooth={true}
-              offset={-70} // Adjust the offset as needed
+              offset={-70}
               duration={500}
               className={activeSection === "s4h_servicecards" ? "nav_servicecards active" : "nav_servicecards"}
               onClick={() => {
@@ -132,7 +130,7 @@ const Navbar = () => {
               to="s4h_carousel"
               spy={true}
               smooth={true}
-              offset={-70} // Adjust the offset as needed
+              offset={-70}
               duration={500}
               className={activeSection === "s4h_carousel" ? "nav_carousel active" : "nav_carousel"}
               onClick={() => {

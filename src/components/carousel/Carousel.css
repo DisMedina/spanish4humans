@@ -3,3 +3,85 @@ div#s4h_carousel {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+.carouselCard {
+    position: relative;
+    width: 22px;
+    height: 600px;
+    padding: 0.5%;
+  }
+  
+  .carouselCard-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carouselCard-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+  }
+  
+  .carouselCard-text {
+    color: #000000;
+    font-size: 1vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 1024px) {
+    .carouselCard {
+        height: 500px;
+      }
+    .carouselCard-content {
+        height: 100px;
+      }
+    .carouselCard-text {
+      -webkit-line-clamp: 3;
+    }
+  }
+  @media (max-width: 768px) {
+    .carouselCard {
+        height: 300px;
+      }
+    .carouselCard-content {
+        height: 100px;
+      }
+  }
+  @media (max-width: 425px) {
+    .carouselCard {
+        height: 200px;
+      }
+      .carouselCard-content {
+        height: 50px;
+      }
+      .carouselCard-text {
+        display: none;
+      }
+  }
+  
+  .carouselCard-button {
+    background-color: #c4e899;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carouselCard-button:hover {
+    background-color: #758a5b;
+  }
+  

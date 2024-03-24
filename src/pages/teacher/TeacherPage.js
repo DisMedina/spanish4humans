@@ -5,7 +5,6 @@ import { Carousel } from "../../components";
 
 const TeacherPage = () => {
   useEffect(() => {
-    // Scroll to the top of the page when the component is mounted
     window.scrollTo(0, 0);
   }, []);
 

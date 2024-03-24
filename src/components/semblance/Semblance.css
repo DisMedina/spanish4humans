@@ -17,7 +17,6 @@
   background-position: center;
   border-radius: 50%;
 }
-/* src\assets\profile_v2.jpg */
 .inner-container {
   color: #f3baba;
   width: 500px;
@@ -32,7 +31,7 @@
   font-family: 'sans-seriff';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2vw; /* 3% of the viewport width */
+  font-size: 1.2vw;
   line-height: 28px;
   text-align: center;
   color: black !important;
@@ -45,9 +44,7 @@
   font-weight: bold;
   font-size: 15px !important;
   text-transform: uppercase;
-  /* margin-bottom: 30px; */
   color: #c4e899;
-  /* display: 'inline' */
 }
 .h-titleSub {
   font-family: 'sans-seriff';
@@ -144,6 +141,6 @@ section#download {
 }
 
 .slide:hover {
-  background-color: #224934; /* Change the background color on hover */
-  transform: scale(1.05); /* Add a scale effect on hover */
+  background-color: #224934;
+  transform: scale(1.05);
 }

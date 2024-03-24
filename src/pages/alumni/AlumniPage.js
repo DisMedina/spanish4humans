@@ -12,7 +12,6 @@ const AlumniPage = () => {
     backgroundImage: `url(${image})`,
   };
   useEffect(() => {
-    // Scroll to the top of the page when the component is mounted
     window.scrollTo(0, 0);
   }, []);
 
@@ -24,7 +23,7 @@ const AlumniPage = () => {
           <div className="inner-container">
             <h2 className="h-titleS">About them</h2>
             <h2 className="h-titleSub">
-              My Journey<span className="highlighted-text"> {title}</span>
+              My Journey: <span className="highlighted-text"> {title}</span>
             </h2>
 
             <p className="card-text">

@@ -35,11 +35,11 @@ const Carousel = ({ data, onlyImages }) => {
         {data.map((item) => (
           onlyImages ? (
             <div className="carouselCard" key={item.id}>
-              <img src={item.image} alt="Slider Image" className="carouselCard-image" />
+              <img src={item.image} alt="Slider" className="carouselCard-image" />
             </div>
           ) : (
             <div className="carouselCard" key={item.id}>
-              <img src={item.image} alt="Slider Image" className="carouselCard-image" />
+              <img src={item.image} alt="Slider" className="carouselCard-image" />
               <div className="carouselCard-content">
                 <p className="carouselCard-text">{item.body}</p>
                 <button className="carouselCard-button" onClick={() => handleButtonClick(item)}>Know more about my experience</button>

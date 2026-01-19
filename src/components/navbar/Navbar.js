@@ -55,6 +55,27 @@ const Navbar = () => {
     setActiveSection(to);
   };
 
+  // Handle navigation to section with cross-page support
+  const handleNavClick = (sectionId) => {
+    if (location.pathname !== "/") {
+      // Navigate to home first, then scroll to section after a brief delay
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const offset = 70;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 100);
+    }
+    setActiveSection(sectionId);
+  };
+
   return (
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -102,7 +123,7 @@ const Navbar = () => {
                   className={`cursor-pointer text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium relative group ${
                     activeSection === "s4h_semblance" ? "text-primary-600" : ""
                   }`}
-                  onClick={() => setActiveSection("s4h_semblance")}
+                  onClick={() => handleNavClick("s4h_semblance")}
                   onSetActive={() => handleSetActive("s4h_semblance")}
                 >
                   Semblance
@@ -121,7 +142,7 @@ const Navbar = () => {
                   className={`cursor-pointer text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium relative group ${
                     activeSection === "s4h_mission" ? "text-primary-600" : ""
                   }`}
-                  onClick={() => setActiveSection("s4h_mission")}
+                  onClick={() => handleNavClick("s4h_mission")}
                   onSetActive={() => handleSetActive("s4h_mission")}
                 >
                   Our Purpose
@@ -140,7 +161,7 @@ const Navbar = () => {
                   className={`cursor-pointer text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium relative group ${
                     activeSection === "s4h_servicecards" ? "text-primary-600" : ""
                   }`}
-                  onClick={() => setActiveSection("s4h_servicecards")}
+                  onClick={() => handleNavClick("s4h_servicecards")}
                   onSetActive={() => handleSetActive("s4h_servicecards")}
                 >
                   Courses
@@ -159,7 +180,7 @@ const Navbar = () => {
                   className={`cursor-pointer text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium relative group ${
                     activeSection === "s4h_carousel" ? "text-primary-600" : ""
                   }`}
-                  onClick={() => setActiveSection("s4h_carousel")}
+                  onClick={() => handleNavClick("s4h_carousel")}
                   onSetActive={() => handleSetActive("s4h_carousel")}
                 >
                   Testimonies
@@ -217,7 +238,7 @@ const Navbar = () => {
               className="text-white text-2xl font-semibold hover:text-primary-100 transition-colors duration-200 cursor-pointer"
               onClick={() => {
                 toggleMenu();
-                setActiveSection("s4h_semblance");
+                handleNavClick("s4h_semblance");
               }}
             >
               Semblance
@@ -233,7 +254,7 @@ const Navbar = () => {
               className="text-white text-2xl font-semibold hover:text-primary-100 transition-colors duration-200 cursor-pointer"
               onClick={() => {
                 toggleMenu();
-                setActiveSection("s4h_mission");
+                handleNavClick("s4h_mission");
               }}
             >
               Our Purpose
@@ -249,7 +270,7 @@ const Navbar = () => {
               className="text-white text-2xl font-semibold hover:text-primary-100 transition-colors duration-200 cursor-pointer"
               onClick={() => {
                 toggleMenu();
-                setActiveSection("s4h_servicecards");
+                handleNavClick("s4h_servicecards");
               }}
             >
               Courses
@@ -265,7 +286,7 @@ const Navbar = () => {
               className="text-white text-2xl font-semibold hover:text-primary-100 transition-colors duration-200 cursor-pointer"
               onClick={() => {
                 toggleMenu();
-                setActiveSection("s4h_carousel");
+                handleNavClick("s4h_carousel");
               }}
             >
               Testimonies

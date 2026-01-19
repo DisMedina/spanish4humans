@@ -1,14 +1,13 @@
 import React from "react";
-import './InfoCard.css';
 
 const InfoCard = ({ side, img, title, information }) => {
     return (
-       <div className={`card-Container${side}`}> 
-            <div className={`card-info-container${side}`}>
-                <p className={`card-info-title${side}`}>{title}</p>
-                <h2 className={`card-location-title${side}`}>{information}</h2>
+       <div className={`backdrop-blur-sm bg-white/80 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-primary-200/50 ${side === 'Left' ? 'md:mr-4' : 'md:ml-4'}`}>
+            <div className="space-y-4">
+                <p className="text-sm font-semibold text-primary-600 uppercase tracking-wide">{title}</p>
+                <h2 className="text-2xl md:text-3xl font-display font-bold text-neutral-800 leading-tight">{information}</h2>
             </div>
-       </div>     
+       </div>
     );
 };
 

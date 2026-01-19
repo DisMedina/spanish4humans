@@ -6,20 +6,17 @@ import {
     Carousel,
     Missionvision,
   } from "../../components";
-  import './Home.css';
   import { testimonies } from "../../components/datasets";
 
 const HomePage = () => {
     return (
-        <>
-        <header className="header-bg">
-            <Header data-aos="fade-left"/>
-            <Semblance data-aos="fade-up"/>
-            <Missionvision data-aos="fade-up"/>
-            <ServiceCards data-aos="fade-right"/>
-            <Carousel data={testimonies}/>
-        </header>
-        </>
+        <div className="min-h-screen">
+            <Header />
+            <Semblance />
+            <Missionvision />
+            <ServiceCards />
+            <Carousel data={testimonies} />
+        </div>
     );
 };
 
